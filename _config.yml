@@ -92,8 +92,8 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
+         title: "innertweak",
+         href: "http://innertweak.xyz/"
     # },{
     #    title: "乱序",
     #    href: "http://mida.re/"
