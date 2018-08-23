@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: peterxu9710@outlook.com
 description: "About Robotics, SLAM & Society | Robot Lover，SLAM Algorithm Student, ZJUer & HFLSer | 这里是 @Maverick许学成 的个人博客，与你一起发现世界。"
 keyword: "许学成, Maverickp, 雪城, @我不是自信, 许学成的博客, Maverickp Blog, 博客, 个人网站, Robotics, Semantic SLAM"
-url: "https://maverickpeter.github.io"              # your host, for absolute URL
+url: "https://innertweak.xyz"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
