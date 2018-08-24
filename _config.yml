@@ -13,8 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     我不是自信
-zhihu_username:     我不是自信
+weibo_username:     570055472
+zhihu_username:     xu-xue-cheng-77
 github_username:    MaverickPeter
 #twitter_username:   mav
 #facebook_username:  mav
@@ -56,7 +56,7 @@ kramdown:
 disqus_username: xxc
 
 # Netease settings
-netease_comment: false
+netease_comment: true
 
 
 
