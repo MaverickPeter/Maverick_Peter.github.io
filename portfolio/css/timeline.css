@@ -212,6 +212,14 @@ body, html {
 	background: url("../images/logo-ubuntu.jpg") 50% 50% no-repeat;
 	background-size: 65px;
 }
+.i-vrep:before {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 45px;
+	background: url("../images/logo-vrep.png") 50% 50% no-repeat;
+	background-size: 65px;
+}
 /******* Hux Branch *****/
 
 /* navbar - dark mode */

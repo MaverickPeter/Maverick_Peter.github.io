@@ -72,7 +72,7 @@ ga_domain: maverickpeter.github.io
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Know yourself<br>世人痴情无数，如戏一出"
+sidebar-about-description: "Know yourself<br>你我皆凡人"
 sidebar-avatar: /img/avatar-xxc.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
