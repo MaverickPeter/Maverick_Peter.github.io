@@ -93,7 +93,7 @@ service-worker: true
 friends: [
     {
          title: "innertweak",
-         href: "http://innertweak.xyz/"
+         href: "https://www.innertweak.xyz/"
     # },{
     #    title: "乱序",
     #    href: "http://mida.re/"
