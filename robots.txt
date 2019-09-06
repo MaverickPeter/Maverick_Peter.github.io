@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://maverickpeter.github.io/sitemap.xml
