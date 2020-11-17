@@ -199,7 +199,7 @@ body, html {
 .i-ros:before {
 	content: "";
 	display: block;
-	width: 65px;
+	width: 80px;
 	height: 40px;
 	background: url("../images/logo-ros.jpg") 50% 50% no-repeat;
 	background-size: 65px;
