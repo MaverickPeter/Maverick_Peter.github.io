@@ -164,15 +164,125 @@
 			</header>
 			<div class="main">
 				<ul class="cbp_tmtimeline">
-                    			<li>
+                    <li>
+						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - DiSCO: Differentiable Scan Context with Orientation </h2>
+							<time>2020.10</time>
+							<img src="images/portfolio-DiSCO.png">
+							<ul>
+								<li>
+                                    Global localization is essential for robot navigation, of which the first step is to retrieve a query from the map database. This problem is called place recognition. In recent years, LiDAR scan based place recognition has drawn attention as it is robust against the environmental change. In this paper, we propose a LiDAR-based place recognition method, named Differentiable Scan Context with Orientation (DiSCO), which simultaneously finds the scan at a similar place and estimates their relative orientation. The orientation can further be used as the initial value for the down-stream local optimal metric pose estimation, improving the pose estimation especially when a large orientation between the current scan and retrieved scan exists.                                 
+                                </li>
+								<li class="skill">
+                                    <span><b>DL</b></span>
+                                    <span><b>3D</b></span>
+									<span class="i-ubuntu"></span>
+									<span class="link"><a target="_blank" href="https://arxiv.org/abs/2010.10949">Paper</a></span>
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li>
+						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - Deep Phase Correlation for End-to-End Heterogeneous Sensor Measurements Matching</h2>
+							<time>2020.06</time>
+							<img src="images/portfolio-DPCN.png">
+							<ul>
+								<li>
+                                    <b>[2020 The Conference on Robot Learning (CoRL)]</b> <br>The crucial step for localization is to match the current observation to the map. When the two sensor modalities are significantly different, matching becomes challenging. In this paper, we present an end-to-end deep phase correlation network (DPCN) to match heterogeneous sensor measurements. In DPCN, the primary component is a differentiable correlation-based estimator that back-propagates the pose error to learnable feature extractors, which addresses the problem that there are no direct common features for supervision. Also, it eliminates the exhaustive evaluation in some previous methods, improving efficiency. With the interpretable modeling, the network is light-weighted and promising for better generalization.                                
+                                </li>
+								<li class="skill">
+                                    <span><b>DL</b></span>
+                                    <span><b>CV</b></span>
+                                    <span class="i-ros"></span>
+									<span class="i-ubuntu"></span>
+									<span class="link"><a target="_blank" href="https://arxiv.org/abs/2008.09474">Paper</a></span>
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li>
+						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - Collaborative Localization of Aerial and Ground Mobile Robots through Orthomosaic Map</h2>
+							<time>2020.04</time>
+							<img src="images/portfolio-RCAR.png">
+							<ul>
+								<li>
+                                    <b>[2020 International Conference on Real-time Computing and Robotics (RCAR)]</b> <br>With the deepening of research on the SLAM system, the possibility of cooperative SLAM with multi-robots has been proposed. This paper presents a map matching and localization approach considering the cooperative SLAM of an aerial-ground system. The proposed approach aims to help precisely matching the map constructed by two independent systems that have large scale variance of viewpoints of the same route and eventually enables the ground mobile robot to localize itself in the global map given by the drone.                               
+                                </li>
+								<li class="skill">
+                                    <span><b>CV</b></span>
+                                    <span class="i-ros"></span>
+									<span class="i-ubuntu"></span>
+									<span class="link"><a target="_blank" href="https://arxiv.org/abs/2007.11233">Paper</a></span>
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li>
+						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - GEM: online globally consistent dense elevation mapping for unstructured terrain</h2>
+							<time>2020.02</time>
+							<img src="images/portfolio-GEM.png">
+							<ul>
+								<li>
+                                    We propose an elevation mapping system, namely GEM, to generate a dense local elevation map in constant real-time for fast responsive local planning, and maintain a globally consistent dense map for path routing at the same time.
+                                </li>
+								<li class="skill">
+                                    <span><b>SLAM</b></span>
+                                    <span class="i-ros"></span>
+									<span class="i-ubuntu"></span>
+									<!-- <span class="link"><a target="_blank" href="https://maverickpeter.github.io/GEM.pdf">Paper</a></span> -->
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li>
+						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - Real-time instance-aware semantic mapping </h2>
+							<time>2019.11</time>
+							<img src="images/portfolio-semantics.png">
+							<ul>
+								<li>
+                                    <b>[Journal of Physics: Conference Series (2019 ICDT Conference)]</b> <br> The semantic information helps robots to understand its surroundings like human beings and enables robots to achieve human-robot interaction. In recent years, there have been many interests in semantic mapping. Numerous approaches manage to build a semantic map and achieve good accuracy, but the existing mapping methods which create the metric semantic map ignore the subsequent applications of the semantic map. However, the metric map with the simple semantic class label has no direct benefit to localization. In this paper, we propose an approach to construct an object-centric map with promising applications.
+                                </li>
+								<li class="skill">
+                                    <span><b>SLAM</b></span>
+                                    <span class="i-ros"></span>
+									<span class="i-ubuntu"></span>
+									<!-- <span class="link"><a target="_blank" href="https://maverickpeter.github.io/GEM.pdf">Paper</a></span> -->
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li>
+						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - GPU accelerated real-time traversability mapping </h2>
+							<time>2019.09</time>
+							<img src="images/portfolio-gpu-GEM.png">
+							<ul>
+								<li>
+                                    <b>[2019 IEEE International Conference on Robotics and Biomimetics (ROBIO)]</b> <br>Dense map representation of the robot surroundings, which contains detailed information of the drivable region can be easily used for motion planning. To build a dense map on mobile robots, the main challenge is that the system has to be efficient due to the limited computational resources. In this paper, we propose a novel approach to generate a dense map with drivable information. First, the dense map with elevation information is generated by the proprioceptive localization results acquired from kinematic and inertial measurement, as well as the accumulated raw data from the range sensor. 
+                                </li>
+								<li class="skill">
+                                    <span><b>CUDA</b></span>
+                                    <span><b>SLAM</b></span>
+                                    <span class="i-ros"></span>
+									<span class="i-ubuntu"></span>
+									<span class="link"><a target="_blank" href="https://ieeexplore.ieee.org/document/8961816">Paper</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+                    <li>
 						<div class="cbp_tmlabel">
 							<h2 id="Project">Graduate Thesis - Semantic Mapping</h2>
 							<time>2019.03</time>
 							<img src="images/portfolio-semantic-mapping.png">
 							<ul>
 								<li>
-                                    					In order to improve the perception ability of mobile robots, there is a fashion to import object infomation in the process of SLAM, a most common one is semantic mapping. In my Graduate thesis, I developed a mapping system based on the RNN and semantic segmentation.
-                               					</li>
+                                    In order to improve the perception ability of mobile robots, there is a fashion to import object infomation in the process of SLAM, a most common one is semantic mapping. In my Graduate thesis, I developed a mapping system based on the RNN and semantic segmentation.
+                                </li>
 								<li class="skill">
 									<span><b>CV</b></span>
 									<span class="i-ubuntu"></span>
