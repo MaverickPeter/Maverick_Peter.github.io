@@ -85,7 +85,7 @@
             </script>
                 -->
                 <!-- script pointing to busuanzi.js -->
-                <script src="\{\{ site.baseurl /}/}/js/busuanzi.pure.mini.js"></script>
+                <script async src="\{\{ site.baseurl /}/}/js/busuanzi.pure.mini.js"></script>
                     <span id="busuanzi_container_site_pv">
                 本站访问量<span id="busuanzi_value_site_pv"></span>次</span>
                 </p>
@@ -114,6 +114,8 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
+
+<script src="\{\{ site.baseurl /}/}/js/busuanzi.pure.mini.js"></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
