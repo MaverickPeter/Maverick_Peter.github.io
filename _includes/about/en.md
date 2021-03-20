@@ -1,6 +1,6 @@
 > To be a better man.
 
-Hi, I am *@maverickp* (XU, Xuecheng), a postgraduate student major in Robotics. I am currently working on differentiable SLAM and multi-agent systems at [CSC](http://www.csc.zju.edu.cn/) lab, ZJU. 
+Hi, I am *@maverickp* (Xuecheng Xu), a postgraduate student major in Robotics. I am currently working on differentiable SLAM and multi-agent systems at [ZJU Robotics Lab](https://space.bilibili.com/544651460?spm_id_from=333.788.b_765f7570696e666f.1). 
 
 I previously worked as an intern Algorithm engineer at [NANJIANG Robotics](http://www.njrobot.com/); a member of ZMART Team attending ICRA DJI RoboMaster AI Chanllege.
 
@@ -21,4 +21,4 @@ I previously worked as an intern Algorithm engineer at [NANJIANG Robotics](http:
 - C++
 - Python  
 
-
+Specific information about works I've done can be found here -> [Portfolio](/portfolio), [Github](http://github.com/maverickpeter)
