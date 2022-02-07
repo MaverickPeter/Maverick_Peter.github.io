@@ -1,0 +1,30 @@
+I";<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+<h3 id="basic-knowledge">Basic Knowledge:</h3>
+
+<blockquote>
+  <p>大部分资料来源于<a href="https://bigquant.com/tutorial/">宽客学院</a>，本文在此基础上进行一些扩充与整理。</p>
+</blockquote>
+
+<h4 id="1-什么是量化投资">1. 什么是量化投资:</h4>
+
+<p><strong>量化投资是指通过数量化模型建立科学投资体系，以获取稳定收益。</strong> 在海外的发展已有30多年的历史，其投资业绩稳定，市场规模和份额不断扩大、得到了越来越多投资者认可。在国内，量化投资不再是一个陌生的词汇，近几年得到了迅猛的发展。</p>
+
+<p><strong>价值投资</strong>和 <strong>趋势投资</strong>（技术分析）是引领过去一个世纪的投资方法，随着计算机技术的发展，已有的投资方法和计算机技术相融合，产生了量化投资。</p>
+
+<h4 id="2-量化投资和传统投资的区别">2. 量化投资和传统投资的区别</h4>
+
+<p>简单来说，量化投资与传统投资方法之间的关系比较类似于中医和西医的关系。<strong>量化投资与传统投资最鲜明的区别就是模型的应用</strong>，这就类似于医学上对仪器的应用。中医主要通过望、闻、问、切等医疗手段，很大程度上借助中医长期积累的经验进行诊断，定性的程度大一些。而西医则不同，西医主要借助于现代仪器，首要病人去拍片子、打B超、化验等，这些都要依托于医学仪器进行检验，对于各项检查结果有详细的数据评价标准，最后判断症结所在，进而对症下药。具体的比较见表1：</p>
+
+<p><img src="/img/quant-contrast.png" alt="quant-contrast" /></p>
+
+:ET

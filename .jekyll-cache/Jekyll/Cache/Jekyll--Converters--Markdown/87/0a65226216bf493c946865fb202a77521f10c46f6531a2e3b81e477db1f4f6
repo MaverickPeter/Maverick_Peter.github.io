@@ -1,0 +1,33 @@
+I"<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+<h3 id="basic-knowledge">Basic Knowledge:</h3>
+
+<blockquote>
+  <p>大部分资料来源于<a href="https://bigquant.com/tutorial/">宽客学院</a>，本文在此基础上进行一些扩充与整理。</p>
+</blockquote>
+
+<h4 id="1-什么是量化投资">1. 什么是量化投资:</h4>
+
+<ul>
+  <li>
+    <p><strong>资本资产定价模型（Capital Asset Pricing Model, CAPM）：</strong></p>
+
+    <p>$E(r_{i})=R_f+\beta_i(E(R_M)-R_f)$,</p>
+
+    <ul>
+      <li>其中$R_f$代表无风险回报率（Risk Free Rate），是纯粹的货币时间价值，$\beta_a$是beta系数，$E(R_M)$为市场期望回报率（Expected Market Return）, $E(R_M)-R_f$是股票市场溢价（Equity Market Premium）</li>
+      <li>CAPM公式中的$R_f$是无风险收益率，比较典型的无风险回报率是10年期的美国政府债券。如果股票投资者需要承受额外的风险，那么他将需要在无风险回报率的基础上多获得相应的溢价。那么，股票市场溢价就等于市场预期回报率减去无风险回报率。证券风险溢价就是股票市场溢价和一个$\beta$系数的乘积。</li>
+    </ul>
+  </li>
+</ul>
+
+:ET
