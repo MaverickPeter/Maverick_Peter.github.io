@@ -34,10 +34,9 @@ GEM是我和潘一源师兄合作的一篇做建图的文章，全名叫GEM: Onl
 
 ### Dependencies
 
-Ubuntu: 16.04-20.04
-ROS: kinetic-noetic(会有一些frame_id要不要加"/"的问题)
-
-Packages (以kinetic为例)
+- Ubuntu: 16.04-20.04
+- ROS: kinetic-noetic(会有一些frame_id要不要加"/"的问题)
+- Packages (以kinetic为例)
 ```
 # apt
 sudo apt install ros-kinetic-grid-map* ros-kinetic-octomap* ros-kinetic-costmap* ros-kinetic-nav*
