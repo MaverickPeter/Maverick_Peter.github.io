@@ -58,9 +58,9 @@ cd multi-layer-polar-cython/cython
 python setup.py build_ext --inplace
 mv gputransform.cpython-37m-x86_64-linux-gnu.so ../../
 
-# 2. Download the pretrained model from https://drive.google.com/file/d/1yGFtNUavJT0kxS_mtYAE8U3FzOTpt3c4/view?usp=sharing and move the model.ckpt to the log/
+# 3. Download the pretrained model from https://drive.google.com/file/d/1yGFtNUavJT0kxS_mtYAE8U3FzOTpt3c4/view?usp=sharing and move the model.ckpt to the log/
 
-# 3. Try inference.py
+# 4. Try inference.py
 python inference.py
 
 ```
@@ -84,13 +84,13 @@ cd multi-layer-polar-cython/cython
 python setup.py build_ext --inplace
 mv gputransform.cpython-37m-x86_64-linux-gnu.so ../../
 
-# 2. Download the pretrained model from https://drive.google.com/file/d/1yGFtNUavJT0kxS_mtYAE8U3FzOTpt3c4/view?usp=sharing and move the model.ckpt to the log/
+# 3. Download the pretrained model from https://drive.google.com/file/d/1yGFtNUavJT0kxS_mtYAE8U3FzOTpt3c4/view?usp=sharing and move the model.ckpt to the log/
 
-# 3. catkin_make to generate DiSCO msg
+# 4. catkin_make to generate DiSCO msg
 cd disco_ws/
 catkin_make
 
-# 4. Try infer_ros.py
+# 5. Try infer_ros.py
 source devel/setup.bash
 rosrun disco_ros infer_ros.py 
 ```
