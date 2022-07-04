@@ -166,6 +166,45 @@
 				<ul class="cbp_tmtimeline">
                     <li>
 						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - One RING to Rule Them All:  <br> &emsp; &emsp; &emsp; Radon Sinogram for Place Recognition, Orientation and Translation Estimation </h2>
+							<time>2022.03</time>
+							<img src="images/portfolio-RING.png">
+							<ul>
+								<li>
+                                    <b>[The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022)]</b> <br>
+                                    LiDAR-based global localization is a fundamental problem for mobile robots. It consists of two stages, place recognition and pose estimation, and yields the current orientation and translation, using only the current scan as query and a database of map scans. Inspired by the definition of a recognized place, we consider that a good global localization solution should keep the pose estimation accuracy with a lower place density. Following this idea, we propose a novel framework towards sparse place-based global localization, which utilizes a unified and learning-free representation, Radon sinogram (RING), for all sub-tasks. Based on the theoretical derivation, a translation invariant descriptor and an orientation invariant metric are proposed for place recognition, achieving certifiable robustness against arbitrary orientation and large translation between query and map scan. In addition, we also utilize the property of RING to propose a global convergent solver for both orientation and translation estimation, arriving at global localization. Evaluation of the proposed RING based framework validates the feasibility and demonstrates a superior performance even under a lower place density.                            
+                                </li>
+								<li class="skill">
+                                    <span><b>CV</b></span>
+                                    <span><b>3D</b></span>
+									<span class="i-ubuntu"></span>
+									<span class="link"><a target="_blank" href="https://arxiv.org/abs/2204.07992">Paper</a></span>
+                                    <span class="link"><a target="_blank" href="https://github.com/ZJUYH/radar-to-lidar-place-recognition">Code</a></span>
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li>
+						<div class="cbp_tmlabel">
+							<h2 id="Paper">Paper - Translation Invariant Global Estimation of Heading Angle  <br> &emsp; &emsp; &emsp; Using Sinogram of LiDAR Point Cloud </h2>
+							<time>2021.10</time>
+							<img src="images/portfolio-Radon.png">
+							<ul>
+								<li>
+                                    <b>[The 2022 IEEE International Conference on Robotics and Automation (ICRA 2022)]</b> <br>
+                                    Global point cloud registration is an essential module for localization, of which the main difficulty exists in estimating the rotation globally without initial value. With the aid of gravity alignment, the degree of freedom in point cloud registration could be reduced to 4DoF, in which only the heading angle is required for rotation estimation. In this paper, we propose a fast and accurate global heading angle estimation method for gravity-aligned point clouds. Our key idea is that we generate a translation invariant representation based on Radon Transform, allowing us to solve the decoupled heading angle globally with circular cross-correlation. Besides, for heading angle estimation between point clouds with different distributions, we implement this heading angle estimator as a differentiable module to train a feature extraction network end- to-end. The experimental results validate the effectiveness of the proposed method in heading angle estimation and show better performance compared with other methods.                            
+                                </li>
+								<li class="skill">
+                                    <span><b>CV</b></span>
+                                    <span><b>3D</b></span>
+									<span class="i-ubuntu"></span>
+									<span class="link"><a target="_blank" href="https://arxiv.org/abs/2203.00924">Paper</a></span>
+								</li>
+							</ul>
+						</div>
+                    </li>
+                    <li>
+						<div class="cbp_tmlabel">
 							<h2 id="Paper">Paper - Radar-to-Lidar: Heterogeneous Place Recognition <br> &emsp; &emsp; &emsp; via Joint Learning </h2>
 							<time>2021.05</time>
 							<img src="images/portfolio-radar-to-lidar.png">
@@ -191,7 +230,7 @@
 							<img src="images/portfolio-coral.png">
 							<ul>
 								<li>
-                                    <b>[The 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022) ]</b> <br>
+                                    <b>[The 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)]</b> <br>
                                     Place recognition is indispensable for a drift-free localization system. Due to the variations of the environment,place recognition using single-modality has limitations. In this paper, we propose a bi-modal place recognition method, which can extract a compound global descriptor from the two modalities, vision and LiDAR. Specifically, we first build the elevation image generated from 3D points as a structural representation. Then, we derive the correspondences between 3D points and image pixels that are further used in merging the pixel-wise visual features into the elevation map grids. In this way, we fuse the structural features and visual features in the consistent bird-eye view frame, yielding a semantic representation, namely CORAL. And the whole network is called CORAL-VLAD. Comparisons on the Oxford RobotCar show that CORALVLAD has superior performance against other state-of-theart methods. We also demonstrate that our network can be generalized to other scenes and sensor configurations on crosscity datasets.                            
                                 </li>
 								<li class="skill">
