@@ -27,6 +27,6 @@
     },
     "dependencies": {
         "hexo-generator-baidu-sitemap": "^0.1.6",
-        "hexo-generator-sitemap": "^1.2.0"
+        "hexo-generator-sitemap": "^3.0.1"
     }
 }
