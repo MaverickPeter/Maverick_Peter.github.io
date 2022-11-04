@@ -2,7 +2,7 @@
 layout:     post
 title:      "MR_SLAM使用指南"
 subtitle:   " \"MR_SLAM Tutorial\""
-date:       2022-11-04 12:00:00
+date:       2022-11-03 12:00:00
 author:     "xxc"
 header-img: "img/MR_SLAM/dog_demo.jpg"
 catalog: true
