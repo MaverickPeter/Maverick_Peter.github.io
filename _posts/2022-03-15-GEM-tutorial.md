@@ -95,6 +95,14 @@ catkin_make
     orthomosaic_saving_dir: "./image/"      # 正视图存储路径 (optional)
     ```
 
+### Use your own bag
+使用自己设备采集的bag，需要配套定位算法，GEM仅提供建图，需要做的修改如下：
+1. launch文件中 需要设置 use_sim_time 为 true； camera_topic 和 lidar_topic 需要相应修改
+2. Camera需要与LiDAR同步，即时间戳需要一致，如不需要camera，则可以使用仓库提供的 fake_img.py
+3. 需要修改 robots/simple_demo_robot.yaml 中 sensor_frame_id，robot_base_frame_id，track_point_frame_id 为定位算法提供的tf的坐标系；camera_params_yaml 需要修改为绝对位置，否则会报错
+
+
+
 ### FAQ
 1. catkin_make报错 
    ```"/usr/local/cuda-10.1/include/crt/common_functions.h:74:24: error: token ""CUDACC_VER is no longer supported. Use CUDACC_VER_MAJOR, CUDACC_VER_MINOR, and CUDACC_VER_BUILD instead."" is not valid in preprocessor expressions #define CUDACC_VER "CUDACC_VER is no longer supported. Use CUDACC_VER_MAJOR, CUDACC_VER_MINOR, and CUDACC_VER_BUILD instead." 
